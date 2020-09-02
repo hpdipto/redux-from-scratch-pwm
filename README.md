@@ -1,3 +1,12 @@
+# Redux from Scratch
+
+The source code of this repository is taken from Programming with Mosh's [Redux Tutorial - Learn Redux from Scratch](https://www.youtube.com/watch?v=poQXNp9ItL4) video.
+
+Probably this video is taken from Mosh's Redux course. So this is not a full video but the basic of Redux is cleared here nicely.
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
