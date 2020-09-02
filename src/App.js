@@ -1,7 +1,7 @@
 import React from 'react';
 
+import { bugAdded, bugRemoved } from './actions';
 import store from './store';
-import * as actions from './actionTypes';
 import './App.css';
 
 
@@ -12,21 +12,11 @@ function App() {
   });
 
 
-  store.dispatch({
-    type: actions.BUG_ADDED,
-    payload: {
-      description: "Bug1"
-    }
-  });
+  store.dispatch(bugAdded("Bug 1"));
 
   unsubscribe();
 
-  store.dispatch({
-    type: actions.BUG_REMOVED,
-    payload: {
-      id: 1
-    }
-  })
+  store.dispatch(bugRemoved(1));
 
 
   console.log(store.getState());
